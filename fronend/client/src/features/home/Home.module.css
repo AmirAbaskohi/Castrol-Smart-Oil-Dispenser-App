@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.barrelOne {
+  position: absolute;
+  width: 400px;
+  height: 24px;
+  left: 0px;
+  top: 456px;
+  background: #EB5757;
+}
+
+.barrelTwo {
+  position: absolute;
+  width: 400px;
+  height: 24px;
+  left: 400px;
+  top: 456px;
+  background: #F2C94C;
+}
+
+.barrelSpan {
+  position: absolute;
+  width: 400px;
+  height: 19px;
+  bottom: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}

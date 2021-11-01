@@ -1,0 +1,54 @@
+@media (min-width: 720px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: -14px;
+  }
+  
+  .barrelOne {
+    width: 50%;
+    height: 24px;
+    background: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barrelTwo {
+    width: 50%;
+    height: 24px;
+    background: #F2C94C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 719px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .barrelOne {
+    height: 24px;
+    background: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .barrelTwo {
+    height: 24px;
+    background: #F2C94C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

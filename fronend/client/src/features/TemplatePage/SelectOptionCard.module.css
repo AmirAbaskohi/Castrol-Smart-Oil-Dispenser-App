@@ -1,0 +1,42 @@
+.card {
+  margin: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.textLink {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 21px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.box {
+  width: 164.35px;
+  height: 167.35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.boxAllCornersRounded {
+  border-radius: 8px;
+}
+
+.boxNoRoundTopCorners {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}
+
+.title {
+  padding-top: 14px;
+  text-align: center;
+  width: 165px;
+}

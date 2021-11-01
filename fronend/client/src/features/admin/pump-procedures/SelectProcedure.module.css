@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}

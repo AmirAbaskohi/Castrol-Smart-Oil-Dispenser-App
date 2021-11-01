@@ -1,0 +1,50 @@
+.content {
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.buttonsSection {
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #009A4E;
+  color: #FFFFFF;
+  width: 50%;
+  height: 56px;
+  border-radius: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+}
+
+.buttonDisabled {
+  opacity: 0.5;
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}

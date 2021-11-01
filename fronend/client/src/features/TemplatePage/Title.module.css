@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.back {
+  width: 32.5px;
+  height: 54.6px;
+  padding-left: 122px;
+}
+
+.next {
+  width: 32.5px;
+  height: 54.6px;
+  padding-right: 122px;
+}
+
+.placeholderBack {
+  width: 32.5px;
+  height: 54.6px;
+  padding-left: 122px;
+}
+
+.placeholderNext {
+  width: 32.5px;
+  height: 54.6px;
+  padding-right: 122px;
+}

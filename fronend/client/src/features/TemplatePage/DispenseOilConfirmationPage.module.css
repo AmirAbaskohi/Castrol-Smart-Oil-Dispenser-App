@@ -1,0 +1,42 @@
+.content {
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.quantity {
+  padding-bottom: 60px;
+}
+
+.startButton {
+  background-color: #009A4E;
+  color: #FFFFFF;
+  width: 50%;
+  height: 56px;
+  border-radius: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.startButtonDisabled {
+  opacity: 0.5;
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}

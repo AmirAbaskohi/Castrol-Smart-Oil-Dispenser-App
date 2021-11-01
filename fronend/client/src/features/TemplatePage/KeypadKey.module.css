@@ -1,0 +1,24 @@
+.content {
+  width: 155px;
+  height: 32px;
+  margin: 3px;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.special {
+  background-color: #d0d0d0;
+}
+
+.enter {
+  width: 165px;
+  height: 152px;
+}

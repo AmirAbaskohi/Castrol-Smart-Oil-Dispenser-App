@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.multiSelect {
+  margin-left: 60%;
+  margin-top: -60px
+}

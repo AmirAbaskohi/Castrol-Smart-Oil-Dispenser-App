@@ -1,0 +1,37 @@
+.pageContainer {
+  display: grid;
+}
+
+.regNumberContent {
+  grid-area: 1 / 1;
+}
+
+.loading {
+  grid-area: 1 / 1;
+  padding-left: calc(100vw / 2 - 150px);
+  padding-top: calc(100vh / 2 - 150px);
+}
+
+.error {
+  padding-top: 10px;
+  text-align: center;
+  color: #ee1a2d;
+  font-weight: 600;
+}
+
+.carDetails {
+  padding-bottom: 10px;
+}
+
+.opacity {
+  opacity: 0.2;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-flow: column;
+  height: 90%;
+}

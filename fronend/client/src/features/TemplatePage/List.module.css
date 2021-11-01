@@ -1,0 +1,17 @@
+.list {
+  font-size: 21px;
+  font-weight: 500;
+  width: 60%;
+  flex: 2 ;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.list ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}

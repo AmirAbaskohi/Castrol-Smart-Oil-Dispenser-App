@@ -1,0 +1,79 @@
+.list {
+  font-size: 21px;
+  width: 100%;
+  flex: 2;
+  overflow: auto;
+  overflow-x: hidden;
+  -webkit-mask: linear-gradient(#fff, transparent);
+  mask: linear-gradient(#fff, transparent);
+  line-height: 35px;
+}
+
+.list ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.item {
+  background-color: #F6F6F6;
+  width: 100%;
+  min-height: 47px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.item span {
+  margin-right: 20px;
+}
+
+.grid {
+  height: 300px;
+  width: 700px !important;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bodyContent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12%;
+  margin-top: 2%;
+  font-weight: bold;
+  color: black;
+}
+
+.leftAlign {
+  text-align: left;
+  width: 50%;
+  display: inline-block;
+}
+
+.rightAlign {
+  margin-left: 12%;
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+}
+
+.multiSelect {
+  margin-left: 60%;
+  margin-top: -60px
+}
+
+.icon {
+  width: 72.85px;
+  height: 85.84px;
+}

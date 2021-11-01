@@ -1,0 +1,12 @@
+.content {
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 30px;
+}
+
+.doneIcon {
+  padding-top: 40px;
+}
