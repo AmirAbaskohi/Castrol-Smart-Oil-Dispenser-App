@@ -1,0 +1,3 @@
+DELETE FROM Barrels;
+DELETE FROM Barrel_Types;
+DELETE FROM Users;
